@@ -1,0 +1,8 @@
+Needs: 
+
+Python: https://www.python.org/downloads/
+
+Tkinter library
+Linux:
+sudo apt install python-tk
+
