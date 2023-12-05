@@ -84,7 +84,7 @@ def make_password(entry_text, result_text, screen2, created_label):
 	password_final = "".join(phraselist)
 
 	# View the generated password
-	result_text = Text(screen2, width=57, height=5, font= ('Arial 15 bold'), bg= result_color, fg= white_color, bd= 0, highlightthickness= 0, highlightbackground= background_color)
+	result_text = Text(screen2, width=60, height=5, font= ('Arial 15 bold'), bg= result_color, fg= white_color, bd= 0, highlightthickness= 0, highlightbackground= background_color)
 	result_text.place(x= 100, y= 460)
 	result_text.insert(tk.END, password_final)
 	result_text.config(state='disabled')
@@ -108,7 +108,7 @@ def password_window(screen1, inital_window):
 	created_label.place(x= 100, y= 410)
 
 	# Result password label
-	result_text = Text(screen2, width=57, height=5, font= ('Arial 15 bold'), bg= result_color, fg= white_color, bd= 0, highlightthickness= 0, highlightbackground= background_color)
+	result_text = Text(screen2, width=60, height=5, font= ('Arial 15 bold'), bg= result_color, fg= white_color, bd= 0, highlightthickness= 0, highlightbackground= background_color)
 	result_text.place(x= 100, y= 460)
 	result_text.config(state="disabled")
 
@@ -127,7 +127,7 @@ def password_window(screen1, inital_window):
 
 
 	# Entry
-	entry_text = Text(screen2, width= 50, height= 3, font=('Aria 15 bold'), bg= entry_color, bd=0, fg='#ffffff', highlightthickness=0)
+	entry_text = Text(screen2, width= 48, height= 3, font=('Aria 15 bold'), bg= entry_color, bd=0, fg='#ffffff', highlightthickness=0)
 	entry_text.place(x=100, y=150)
 
 
