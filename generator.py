@@ -127,7 +127,7 @@ def password_window(screen1, inital_window):
 
 
 	# Entry
-	entry_text = Text(screen2, width= 48, height= 3, font=('Aria 15 bold'), bg= entry_color, bd=0, fg='#ffffff', highlightthickness=0)
+	entry_text = Text(screen2, width= 60, height= 3, font=('Aria 15 bold'), bg= entry_color, bd=0, fg='#ffffff', highlightthickness=0)
 	entry_text.place(x=100, y=150)
 
 
